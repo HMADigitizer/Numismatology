@@ -1,0 +1,78 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://HMADigitizer.github.io/Numismatology/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "174-30-30176_001",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://a1497530-1910-4c96-96e7-d2ff9d72b19e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://06c6ab6e-fe17-4d12-9701-05f609ae4a71",
+      "@type" : "sc:Canvas",
+      "label" : "174-30-30176_002",
+      "height" : 800,
+      "width" : 820,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a5ce7345-6f75-46da-8fd6-dc447c1a9718",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://hmadigitizer.github.io/Numismatology/images/RS93715_174-30-30176_002_cr-scr/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://hmadigitizer.github.io/Numismatology/images/RS93715_174-30-30176_002_cr-scr",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 800,
+          "width" : 820
+        },
+        "on" : "http://06c6ab6e-fe17-4d12-9701-05f609ae4a71"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://40157f28-92de-4ab4-a9c8-8b995d2db00c",
+      "@type" : "sc:Canvas",
+      "label" : "174-30-30176_001",
+      "height" : 800,
+      "width" : 820,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1c290988-5cca-454e-9de4-b1e4761bc64a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://hmadigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://hmadigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 800,
+          "width" : 820
+        },
+        "on" : "http://40157f28-92de-4ab4-a9c8-8b995d2db00c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://06c6ab6e-fe17-4d12-9701-05f609ae4a71"
+  }
+}
