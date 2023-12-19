@@ -1,0 +1,66 @@
+{
+  "id" : "https://HMADigitizer.github.io/Numismatology/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in HMADigitizer/Numismatology project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 820,
+    "id" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/canvas/",
+    "label" : {
+      "none" : [ "RS93713_174-30-30176_001_cr-scr" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 26,
+              "height" : 25
+            }, {
+              "width" : 52,
+              "height" : 50
+            }, {
+              "width" : 103,
+              "height" : 100
+            }, {
+              "width" : 205,
+              "height" : 200
+            }, {
+              "width" : 410,
+              "height" : 400
+            }, {
+              "width" : 820,
+              "height" : 800
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 820,
+            "@id" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 800
+          } ],
+          "format" : "image/jpeg",
+          "width" : 820,
+          "id" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 800
+        },
+        "target" : "https://HMADigitizer.github.io/Numismatology/images/RS93713_174-30-30176_001_cr-scr/canvas/"
+      } ]
+    } ],
+    "height" : 800
+  } ]
+}
