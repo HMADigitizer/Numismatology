@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 26,
+    "height" : 25
+  }, {
+    "width" : 52,
+    "height" : 50
+  }, {
+    "width" : 103,
+    "height" : 100
+  }, {
+    "width" : 205,
+    "height" : 200
+  }, {
+    "width" : 410,
+    "height" : 400
+  }, {
+    "width" : 820,
+    "height" : 800
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 820,
+  "@id" : "https://HMADigitizer.github.io/Numismatology/images/RS93715_174-30-30176_002_cr-scr",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 800
+}
